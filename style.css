@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+  }
+header {
+    align-items: center;
+    padding: 3rem;
+}
+img{
+    height: 48px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    gap: 70px;
+}
+.a{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+}
+.sell{
+    background: rgba(41, 178, 78, 1);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding:13px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.main_section{
+    display: flex;
+    gap: 100px;
+}
+.first_section{
+    font-family: 'Poppins', sans-serif;
+    width: 430px;
+    height: 751px;
+    border-radius: 24px;
+    box-shadow: 0px 4px 25px 0px rgba(194, 194, 194, 0.31);
+    margin-left: 3rem;
+    overflow: hidden;
+}
+.all{
+    padding: 3rem;
+}
+.select{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    width: 331px;
+    height: 48px;
+    border: 1px solid rgb(218, 210, 210);
+    border-radius: 10px;
+    background-color: white;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.first_checkboxs{
+    margin-bottom: 20px;
+}
+input{
+    background-color: #fff;
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.checkbox-container{
+    display: block;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+span{
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.img{
+    background-image: url(/img/Rectangle\ 400.png);
+    width: 1225px;
+    height: 751px;
+    border-radius: 24px;
+}
+.img h1{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: center;
+}
+.img h5{
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-align: center;
+}
+.search{
+    display: flex;
+    text-align: center;
+    margin-left: 36%;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    padding: 5px 10px;
+    width: 314px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.search-input {
+    border: none;
+    outline: none;
+    background: none;
+    flex: 1;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+i{
+    color: rgb(81, 76, 76);
+}
+.qardebi{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 65px;
+    justify-content: center;
+    padding: 10px;
+}
+.card{
+    /* flex: 1 1 300px; */
+    max-width: 395px;
+    height: auto;
+    border-radius: 24px;
+    color: rgba(194, 194, 194, 0.3);
+    box-shadow: 0px 4px 25px rgba(194, 194, 194, 0.31);
+}
+.card_img{
+    width: 363px;
+    height: 202px;
+    border-radius: 20px;
+    padding: 15px;
+}
+.name{
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    padding-left: 14px;
+}
+.kajiado{
+    width: 131px;
+    height: 21px;
+    opacity: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    padding-left: 15px;
+}
+.money{
+    display: inline;
+    width: 124px;
+    height: 36px;
+    top: 1263px;
+    left: 398px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: right;
+}
+.dollar{
+    padding-top: 10px;
+    padding-right: 20px;
+    color: rgba(41, 178, 78, 1);
+}
+.span_month{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.footer {
+    margin-top: 30px;
+}
+.line {
+    width: 100%;
+    border: 1px solid rgba(207, 234, 214, 1);
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 10px;
+}
+.green{
+    width: 1850px;
+    height: 179px;
+    gap: 0px;
+    border-radius: 25px;
+    opacity: 0px;
+    background: rgba(41, 178, 78, 1);
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.b{
+    color: rgba(255, 255, 255, 1);
+
+}
+.mid_line{
+    margin-left: 7.5%;
+    width: 1640px;
+    height: 1px;
+    border-radius: 40px 0px 0px 0px;
+    background: rgba(208, 208, 208, 1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.support{
+    color: rgba(255, 255, 255, 1);
+
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .main_section {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .first_section, .img {
+        width: 100%;
+        margin: 0;
+    }
+    ul {
+        gap: 30px;
+    }
+    .img h1 {
+        font-size: 2rem;
+    }
+    .search {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+    ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .first_section, .img {
+        width: 100%;
+        padding: 1rem;
+    }
+    .qardebi {
+        gap: 1rem;
+    }
+    .card {
+        width: 100%;
+        max-width: 100%;
+    }
+    .img h1 {
+        font-size: 1.5rem;
+    }
+    .top, .bottom {
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px){
+    footer, .green{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 1rem;
+    }
+    ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .top, .support{
+        width: 100%;
+        padding: 1rem;
+    }
+}

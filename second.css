@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+  }
+header {
+    align-items: center;
+    padding: 3rem;
+}
+img{
+    height: 48px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    gap: 70px;
+}
+.a{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+}
+.sell{
+    background: rgba(41, 178, 78, 1);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding:13px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.middle{
+    display: flex;
+    gap: 170px;
+    
+}
+.photo{
+    width: 810px;
+    height: 732px;
+    border-radius: 20px;
+    padding-left: 3rem;
+}
+.posted{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 23px;
+
+}
+.vip{
+    width: 93px;
+    height: 28px;
+    background: rgba(41, 178, 78, 1);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding:5px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    line-height: 18px;
+
+}
+.right{
+    width: 786px;
+    height: 732px;
+    border-radius: 24px;
+    box-shadow: 0px 4px 18px 0px #C2C2C24D;
+}
+.head{
+    display: flex;
+    gap: 199px;
+    align-items:first baseline;
+    padding: 1.5rem;
+
+}
+.eye{
+    width: 14px;
+    height: 9px;
+    border: 1px;
+}
+.view{
+    display: flex;
+    gap: 5px;
+    align-items:first baseline;
+}
+.vip_section{
+    align-items: center;
+}
+.black{
+    opacity: 0.9px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.kiambu{
+    opacity: 0.6px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 10px;
+}
+span{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins', sans-serif;
+}
+.text{
+    padding-left: 1.5rem;
+
+}
+.texts{
+    margin-top: 10px;
+    width: 611px;
+    height: 69px;
+    opacity: 0.8px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+.mid_line{
+    width: 786px;
+    height: 1px;
+    background: #ECECEC;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.list{
+    padding-left: 1.5rem;
+}
+.lists{
+    opacity: 0.8px;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+
+.property-details {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.column h3 {
+    font-size: 0.9rem;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.column p {
+    opacity: 0.8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;     
+    color: #000000;
+
+}
+.dollars{
+    width: 170px;
+    height: 54px;
+    top: 800px;
+    left: 1088px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: right;
+    color: #29B24E;
+}
+.span_months{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+
+}
+.moneys{
+    display: flex;
+    justify-content: space-between;
+}
+.button-container {
+    display: flex;
+    gap: 15px;
+}
+
+.buttons {
+    padding: 13px;
+    border-radius: 12px;
+
+}
+.call{
+    padding: 13px 26px;
+    border-radius: 12px;
+    background: #29B24E;
+}
+
+.button:hover {
+    background-color: #e9f5eb;
+}
+
+.button.call {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.button.call:hover {
+    background-color: #218838;
+}
+.similar{
+    width: 125px;
+height: 33px;
+top: 950px;
+left: 140px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 22px;
+font-weight: 500;
+line-height: 33px;
+text-align: left;
+padding-left: 3rem;
+margin-top: 70px;
+}
+.qardebi{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 1500px; */
+    justify-content: space-between;
+    padding: 10px;
+}
+.card{
+    max-width: 395px;
+    height: auto;
+    border-radius: 24px;
+    color: rgba(194, 194, 194, 0.3);
+    box-shadow: 0px 4px 25px rgba(194, 194, 194, 0.31);
+}
+.card_img{
+    width: 363px;
+    height: 202px;
+    border-radius: 20px;
+    padding: 15px;
+}
+.name{
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    padding-left: 14px;
+}
+.kajiado{
+    width: 131px;
+    height: 21px;
+    opacity: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    padding-left: 15px;
+}
+.money{
+    display: inline;
+    width: 124px;
+    height: 36px;
+    top: 1263px;
+    left: 398px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: right;
+}
+.dollar{
+    padding-top: 10px;
+    padding-right: 20px;
+    color: rgba(41, 178, 78, 1);
+}
+.span_month{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.footer {
+    margin-top: 30px;
+}
+
+.green{
+    width: 1850px;
+    height: 179px;
+    gap: 0px;
+    border-radius: 25px;
+    opacity: 0px;
+    background: rgba(41, 178, 78, 1);
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.b{
+    color: rgba(255, 255, 255, 1);
+
+}
+.mid_lines{
+    margin-left: 7.5%;
+    width: 1640px;
+    height: 1px;
+    border-radius: 40px 0px 0px 0px;
+    background: rgba(208, 208, 208, 1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.support{
+    color: rgba(255, 255, 255, 1);
+
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
